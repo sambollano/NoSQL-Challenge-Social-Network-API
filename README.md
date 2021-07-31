@@ -5,11 +5,11 @@ Module 18
 We Are building an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. 
 
 ## Built With
-* HTML
-* CSS
-* JS
-* SQL
-* NoSQL
+* Node.js
+* NPM
+* Express.js
+* MongoDB
+* Mongoose
 
 ## Website
 
