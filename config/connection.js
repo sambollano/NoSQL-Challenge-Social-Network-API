@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/NoSQL-Challenge-Social-Network-API', {
+mongoose.connect('mongodb://localhost/NoSQL-Challenge-Social-Network', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
