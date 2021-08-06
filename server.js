@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const express = require('express');
 
 const app = express();
@@ -7,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/NoSQL-Challenge-Social-Network-Api', {
+mongoose.connect('mongodb://localhost/NoSQL-Challenge-Social-Network-Api',{useNewUrlParser: true}, {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true

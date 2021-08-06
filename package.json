@@ -6,11 +6,12 @@
   "dependencies": {
     "express": "^4.17.1",
     "exxpress": "^1.0.0",
-    "mongoose": "^5.13.3"
+    "mongoose": "^5.13.5",
+    "routes": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
